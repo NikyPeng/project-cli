@@ -2,7 +2,6 @@
   "name": "project-cli",
   "version": "1.0.0",
   "description": "快速创建一个Vue/React/微信小程序项目",
-  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,5 +15,8 @@
     "inquirer": "^6.2.1",
     "log-symbols": "^2.2.0",
     "ora": "^3.0.0"
+  },
+  "bin": {
+    "project": "bin/index.js"
   }
 }
